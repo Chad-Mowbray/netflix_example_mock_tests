@@ -1,0 +1,16 @@
+# Netflix
+
+
+# Entities
+  - User
+    - save_movies
+    - watch_saved_movie
+  - Movie
+    + title
+    + id
+  - SavedMovies
+    + storage (list)
+    - add_move
+    - remove_movie
+  - MoviesAPI
+    - fetch_movie 
